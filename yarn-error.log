@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\PHP\v5.6;C:\Windows\system32\inetsrv;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\SupCha\AppData\Local\Microsoft\WindowsApps;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\SupCha\AppData\Local\Android\Sdk\platform-tools;C:\Users\SupCha\Anaconda3;C:\Users\SupCha\Anaconda3\Library\mingw-w64\bin;C:\Users\SupCha\Anaconda3\Library\usr\bin;C:\Users\SupCha\Anaconda3\Library\bin;C:\Users\SupCha\Anaconda3\Scripts;C:\Users\SupCha\AppData\Local\Microsoft\WindowsApps;C:\Users\SupCha\AppData\Local\GitHubDesktop\bin;C:\Users\SupCha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SupCha\AppData\Roaming\npm;C:\Users\SupCha\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 16280:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^34.0.1",
+      "react": "16.8.3",
+      "react-dom": "^16.8.6",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+      "react-native-web": "^0.11.4"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^6.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
